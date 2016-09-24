@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+.blur {	
+    filter: url(blur.svg#blur); /* FireFox, Chrome, Opera */
+    -webkit-filter: blur(10px); /* Chrome, Opera */
+       -moz-filter: blur(10px);
+        -ms-filter: blur(10px);    
+            filter: blur(10px);
+    
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=10, MakeShadow=false); /* IE6~IE9 */
+}
+/*其中blur(10px)中的大小决定了模糊后的图片大小和模糊程度*/
+		</style>
+	</head>
+	<body>
+		<img class="blur" src="../img/47411770-0f64-4615-bf39-d2815adf52d3.jpg"/>
+	</body>
+</html>
